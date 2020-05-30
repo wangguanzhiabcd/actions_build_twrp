@@ -21,12 +21,12 @@ env:
   USE_OWN_DT: true
   # 这里填写你的Device Tree的地址，分支和Clone到的目录
   # Fill in your Device Tree's address, branch and Clone to the directory
-  DT_URL: https://github.com/Pinkdoge/twrp_device_huawei_kiwi
+  DT_URL: https://github.com/isouzz/android_device_xiaomi_gemini
   DT_BRANCH: android-9.0
-  DT_PATH: device/huawei/kiwi
+  DT_PATH: device/xiaomi/gemini
   # 这里填写你要编译的机型代号
   # Fill in the model code you want to compile here
-  DEVICENAME: kiwi
+  DEVICENAME: gemini
   # 以下的这些是用来修复编译时的错误
   # The following are used to fix compilation errors
   # 第一个是修复不能找到设备的bug，如需开启，请把它设为true
